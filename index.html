@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Zovack Privacy Policy</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .privacy-policy {
+      max-width: 800px;
+      height: 100%;
+      overflow-y: auto;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      scrollbar-width: thin;
+      scrollbar-color: transparent transparent;
+    }
+
+    .privacy-policy.fade-in {
+      opacity: 1;
+    }
+
+    /* Hide scrollbar for Chrome, Safari, and Opera */
+    .privacy-policy::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    .privacy-policy::-webkit-scrollbar-thumb {
+      background-color: transparent;
+    }
+
+    /* Hide scrollbar for Firefox */
+    .privacy-policy {
+      scrollbar-width: none;
+    }
+    
+    h1 {
+      font-size: 24px;
+      color: #333;
+      text-align: center;
+    }
+
+    p {
+      font-size: 16px;
+      color: #666;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .section-title {
+      font-size: 20px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="privacy-policy">
+    <h1>Zovack Privacy Policy</h1>
+
+    <div class="section">
+      <h2 class="section-title">Information We Collect</h2>
+      <p>Zovack collects the following types of information:</p>
+      <ul>
+        <li>Personal information: Email address, phone number, and delivery address.</li>
+        <li>Location information: GPS data to provide accurate delivery services.</li>
+     </ul>
+    </div>
+
+<div class="section">
+      <h2 class="section-title">Sharing of Information</h2>
+      <p>We may share your information with the following parties:</p>
+      <ul>
+        <li>Business partners: Restaurants and grocery stores from which you place orders.</li>
+        <li>Legal authorities: If required by law or to protect our rights and safety.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">Security</h2>
+      <p>Zovack takes appropriate measures to protect your information from unauthorized access or disclosure.</p>
+      <p>We use encryption, secure servers, and regularly update our security practices.</p>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">Your Choices</h2>
+      <p>You have the following choices regarding your information:</p>
+      <ul>
+        <li>You can update your personal information in the Zovack application.</li>
+        <li>You can request the deletion of your account by contacting our support team.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">Changes to this Privacy Policy</h2>
+      <p>We may update this privacy policy from time to time.</p>
+      <p>Any changes will be posted on this page.</p>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">Contact Us</h2>
+      <p>If you have any questions or concerns regarding this privacy policy, please contact us at:</p>
+      <p>Email: zovack2023@gmail.com</p>
+    </div>
+  </div>
+
+  <script>
+    // Add fade-in animation when the page loads
+    window.addEventListener('load', function() {
+      const privacyPolicy = document.querySelector('.privacy-policy');
+      privacyPolicy.classList.add('fade-in');
+    });
+  </script>
+</body>
+
+</html>
